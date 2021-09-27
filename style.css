@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Yaldevi&display=swap');
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 100%;
+    background-color: #111111;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    font-family: 'PT Sans';
+}
+
+img {
+    width: 50em;
+}
+
