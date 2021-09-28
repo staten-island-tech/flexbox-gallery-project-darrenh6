@@ -6,13 +6,33 @@ body {
     background-color: #111111;
     color: white;
 }
-
-.title{
+.title {
     text-align: center;
+    display: block;
+    margin: auto;
     font-family: 'PT Sans';
+    background-color: #BB000E;
+    width: 30%;
 }
-
-img {
+.one {
     width: 50em;
+    display: block;
+    margin: auto;
 }
-
+.character {
+    background-color: #BB000E;
+}
+.caption {
+    text-align: center;
+    background-color: #E31C25;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
