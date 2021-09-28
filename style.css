@@ -2,9 +2,27 @@
 body {
     font-family: 'PT Sans', sans-serif;
     font-family: 'Yaldevi', sans-serif;
-    font-size: 100%;
+    font-size: 62.5%;
     background-color: #111111;
     color: white;
+}
+html,
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page {
+    display: block;
+    margin: auto;
+    width: 60vw;
+    background-color: #1C1C1C;
+}
+.top {
+    margin: auto;
+    display: block;
+    width: 69.9em;
 }
 .title {
     text-align: center;
@@ -12,15 +30,18 @@ body {
     margin: auto;
     font-family: 'PT Sans';
     background-color: #BB000E;
-    width: 30%;
 }
 .one {
-    width: 50em;
+    width: 100%;
     display: block;
     margin: auto;
 }
 .character {
     background-color: #BB000E;
+    margin: 3rem;
+}
+.pic {
+    width: 23.25em;
 }
 .caption {
     text-align: center;
