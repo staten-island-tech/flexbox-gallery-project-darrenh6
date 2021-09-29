@@ -17,7 +17,7 @@ body,
 .page {
     display: block;
     margin: auto;
-    width: 60vw;
+    width: 115.2em;
     background-color: #1C1C1C;
 }
 .top {
@@ -26,6 +26,7 @@ body,
     width: 69.9em;
 }
 .title {
+    padding-top: 0.1em;
     text-align: center;
     display: block;
     margin: auto;
@@ -38,15 +39,20 @@ body,
     margin: auto;
 }
 .character {
-    background-color: #BB000E;
+    background-color: #1C1C1C;
     margin: 3rem;
+    box-shadow: 7px 7px 7px 1px #ffffff;
 }
 .pic {
     width: 23.25em;
 }
 .caption {
+    width: 100%;
     text-align: center;
     background-color: #E31C25;
+}
+.character, .caption{
+    border-radius: 5px 20px 0px 0px;
 }
 .container {
     display: flex;
