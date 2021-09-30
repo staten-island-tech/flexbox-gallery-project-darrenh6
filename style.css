@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Yaldevi&display=swap');
 body {
-    font-family: 'PT Sans', sans-serif;
     font-family: 'Yaldevi', sans-serif;
-    font-size: 62.5%;
     background-color: #111111;
     color: white;
 }
@@ -12,14 +10,17 @@ body,
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
+  
 }
+
 .page {
     display: block;
     margin: auto;
     width: 115.2em;
     background-color: #1C1C1C;
 }
-.top {
+.header {
     margin: auto;
     display: block;
     width: 69.9em;
@@ -37,7 +38,7 @@ body,
     display: block;
     margin: auto;
 }
-.character {
+.section {
     background-color: #1C1C1C;
     margin: 3rem;
     box-shadow: 7px 7px 7px 1px #ffffff;
