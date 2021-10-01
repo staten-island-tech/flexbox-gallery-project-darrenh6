@@ -14,13 +14,16 @@ body,
     margin: 0;
     box-sizing: border-box;
 }
+h2 {
+    font-size: 2em;
+}
 .page {
     display: block;
     margin: auto;
     width: 115.2em;
     background-color: #1C1C1C;
 }
-.top {
+.header {
     margin: auto;
     display: block;
     width: 69.9em;
@@ -54,7 +57,7 @@ body,
 .character, .caption{
     border-radius: 5px 20px 0px 0px;
 }
-.container {
+.section {
     display: flex;
     flex-direction: column;
     justify-content: center;
