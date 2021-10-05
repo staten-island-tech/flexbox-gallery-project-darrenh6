@@ -1,73 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Yaldevi&display=swap');
-body {
-    font-family: 'Yaldevi', sans-serif;
-    background-color: #111111;
-    color: white;
-    width: 100%;
-    font-size: 62.5%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;600&display=swap');
 html,
 body,
 * {
+    font-family: 'Noto Sans Display', sans-serif;
+    background-color: #111111;
+    color: white;
+    font-size: 62.5%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
 }
-h2 {
-    font-size: 2em;
+h1{
+    font-size: 6.4rem;
 }
-.page {
-    display: block;
-    margin: auto;
-    width: 60vw;
-    background-color: #1C1C1C;
+p{
+    font-size: 2rem;
 }
-.header {
-    margin: auto;
-    display: block;
-    width: 69.9em;
-    width: 65%;
-}
-.title {
-    padding-top: 0.1em;
-    text-align: center;
-    display: block;
-    margin: auto;
-    font-family: 'PT Sans';
-    background-color: #BB000E;
-}
-.one {
-    width: 100%;
-    display: block;
-    margin: auto;
-}
-.character {
-    background-color: #1C1C1C;
-    margin: 3rem;
-    box-shadow: 7px 7px 7px 1px #ffffff;
-    width: 20.18%;
-}
-.pic {
-    width: 100%;
-    display: block;
-    margin: auto;
-}
-.caption {
-    width: 99%;
-    text-align: center;
-    background-color: #E31C25;
-}
-.character, .caption{
-    border-radius: 5px 20px 0px 0px;
-}
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
