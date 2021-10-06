@@ -1,19 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;600&display=swap');
-html,
-body,
-* {
-    font-family: 'Noto Sans Display', sans-serif;
-    background-color: #111111;
-    color: white;
-    font-size: 62.5%;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans&display=swap');
+html, body, *{
     padding: 0;
     margin: 0;
+    font-size: 62.5%;
     box-sizing: border-box;
+/* 
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+}
+body{
+    background-color: #ffffff;
+    color: #111111; 
 }
 h1{
-    font-size: 6.4rem;
+    font-size: 7.5rem;
 }
-p{
-    font-size: 2rem;
+h2{
+    font-size: 3rem;
 }
-
+#header{
+    font-family: 'Open Sans', sans-serif;
+    padding: 1.1rem 0rem 0rem 0rem;
+    text-align: left;
+    background: #0d0d0d;
+    color: #ffffff;
+    height: 4.45rem;
+    font-size: 2.4rem;
+}
+.title{
+    padding: 4rem 0rem 4rem 0rem;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+.cover{
+    width: 30rem;
+}
+.caption{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+}
