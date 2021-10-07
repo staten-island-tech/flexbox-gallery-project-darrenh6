@@ -92,6 +92,7 @@ img {
   width: 30rem;
   background-color: red;
   position: absolute;
+  animation-fill-mode: forwards;
   animation-name: talking;
   animation-iteration-count: 1;
   animation-duration: 4s;
