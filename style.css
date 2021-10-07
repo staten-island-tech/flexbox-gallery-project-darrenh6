@@ -1,44 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans&display=swap');
-html, body, *{
-    padding: 0;
-    margin: 0;
-    font-size: 62.5%;
-    box-sizing: border-box;
-/* 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap");
+@import url("hover.css");
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  /* 
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 }
-body{
-    background-color: #ffffff;
-    color: #111111; 
+body {
+  background-color: #ffffff;
+  color: #191414;
 }
-h1{
-    font-size: 7.5rem;
+h1 {
+  font-size: 7.5rem;
 }
-h2{
-    font-size: 3rem;
+h2 {
+  font-size: 3rem;
 }
-#header{
-    font-family: 'Open Sans', sans-serif;
-    padding: 1.1rem 0rem 0rem 0rem;
-    text-align: left;
-    background: #0d0d0d;
-    color: #ffffff;
-    height: 4.45rem;
-    font-size: 2.4rem;
+a:link,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
 }
-.title{
-    padding: 4rem 0rem 4rem 0rem;
-    font-family: 'Noto Sans', sans-serif;
-    text-align: center;
-    font-size: 3rem;
+a:hover {
+  color: #c2ffd3;
 }
-.cover{
-    width: 30rem;
+img {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
 }
-.caption{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.4rem;
-    text-align: center;
+#header {
+  font-family: "Inconsolata", monospace;
+  padding: 1rem;
+  text-align: center;
+  background: #191414;
+  color: #ffffff;
+  font-size: 2.4rem;
+}
+.title {
+  padding: 4rem 0rem 4rem 0rem;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  background: #1db954;
+  color: #ffffff;
+}
+.section {
+  background: #0d0d0d;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.card {
+  width: 30rem;
+  background: #282828;
+  color: #ffffff;
+  margin: 6rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #1db954;
+}
+.cover {
+  width: 100%;
+}
+.caption {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.4rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.rotate {
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  -ms-transition: -ms-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+}
+.rotate:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
 }
