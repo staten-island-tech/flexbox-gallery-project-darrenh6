@@ -33,7 +33,7 @@ a:hover {
   color: #c2ffd3;
 }
 img {
-  font-family: "Open Sans", sans-serif;
+ 1 font-family: "Open Sans", sans-serif;
   font-size: 1.8rem;
   text-align: center;
 }
@@ -86,4 +86,30 @@ img {
   transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
+}
+
+.tom{
+  position: absolute;
+  animation-name: talking;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.tom-img{
+  height: 15rem;
+  width: 35rem;
+}
+@keyframes talking {
+  0% {
+    right: 50%;
+    bottom: 30%;
+  }
+  50% {
+    right: 89%;
+    bottom: 10%;
+  }
+  100% {
+    right: 100%;
+    bottom: 10%;
+  }
 }
