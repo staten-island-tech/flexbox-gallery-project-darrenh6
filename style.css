@@ -33,7 +33,7 @@ a:hover {
   color: #c2ffd3;
 }
 img {
- 1 font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.8rem;
   text-align: center;
 }
@@ -87,7 +87,6 @@ img {
   -ms-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
 }
-
 .tom{
   width: 30rem;
   background-color: red;
@@ -97,16 +96,29 @@ img {
   animation-iteration-count: 1;
   animation-duration: 4s;
 }
-
 .tom-img {
   height: 15rem;
   width: 30rem;
 }
-
 @keyframes talking {
   0%   {right:5rem; top:5rem;}
   25%  {right:20rem; top:5rem;}
   50%  {right:5rem; top:20rem;}
   75%  {right:20rem; top:20rem;}
   100% {right:5rem; top:3rem;}
+}
+@media (max-width: 1280px) {
+  .section{
+    background-color: yellow;
+  }
+}
+@media (max-width: 810px) {
+  .section{
+    background-color: grey;
+  }
+}
+@media (max-width: 390px) {
+  .section{
+    background-color: white;
+  }
 }
